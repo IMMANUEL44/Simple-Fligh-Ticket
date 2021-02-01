@@ -1,0 +1,138 @@
+<html>
+  <head>
+    <title>Travel Booking Form</title>
+    <link rel="stylesheet" href="book.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="testbox">
+    <form action="/">
+      <div class="banner">
+        <h1>Travel Booking Form</h1>
+      </div>
+      <div class="item">
+        <p>Passenger contact name</p>
+        <div class="name-item">
+          <input type="text" name="name" placeholder="First" />
+          <input type="text" name="name" placeholder="Last" />
+        </div>
+      </div>
+      <div class="item">
+        <p>Email</p>
+        <input type="email" name="email"/>
+      </div>
+      <div class="item">
+        <p>Phone</p>
+        <input type="text" name="phone" placeholder="+91 0123456789"/>
+      </div>
+
+      <div class="item">
+        <p>Total number of adults</p>
+        <input type="text" name="adults"/>
+      </div>
+      <div class="item">
+        <p>Adults' names and ages</p>
+        <textarea rows="3"></textarea>
+      </div>
+      <div class="item">
+        <p>Total number of children</p>
+        <input type="text" name="adults"/>
+      </div>
+      <div class="item">
+        <p>Children names and ages</p>
+        <textarea rows="3"></textarea>
+      </div>
+      <div class="item">
+        <p>Type of travel</p>
+        <select required>
+          <option value="">Business</option>
+          <option value="1">Adventure</option>
+          <option value="2">Cultural</option>
+          <option value="3">Cruising</option>
+          <option value="4">Active mobility</option>
+          <option value="5">Active vacation</option>
+          <option value="6">Quiet vacation</option>
+          <option value="7">Package tour</option>
+          <option value="8">Creative trip</option>
+          <option selected value="9">Fun trip</option>
+        </select>
+      </div>
+      <div class="item">
+        <p>Destination</p>
+        <input type="text" name="destination"/>
+      </div>
+
+      <div class="question">
+        <p>Transportation to and from hotel</p>
+        <div class="question-answer">
+          <div>
+            <input type="radio" value="none" id="radio_1" name="question1"/>
+            <label for="radio_1" class="radio"><span>Yes</span></label>
+          </div>
+          <div>
+            <input type="radio" value="none" id="radio_2" name="question1"/>
+            <label for="radio_2" class="radio"><span>No</span></label>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <p>Estimated trip amount</p>
+        <input type="number" name="amount" placeholder="INR 0.00"/>
+      </div>
+      <div class="question">
+        <p>Is anyone traveling over the Age of 55?</p>
+        <div class="question-answer">
+          <div>
+            <input type="radio" value="none" id="radio_3" name="question2"/>
+            <label for="radio_3" class="radio"><span>Yes</span></label>
+          </div>
+          <div>
+            <input type="radio" value="none" id="radio_4" name="question2"/>
+            <label for="radio_4" class="radio"><span>No</span></label>
+          </div>
+        </div>
+        <div class="question">
+          <p>Does anyone traveling have a military background?</p>
+          <div class="question-answer">
+            <div>
+              <input type="radio" value="none" id="radio_5" name="question3"/>
+              <label for="radio_5" class="radio"><span>Yes</span></label>
+            </div>
+            <div>
+              <input type="radio" value="none" id="radio_6" name="question3"/>
+              <label for="radio_6" class="radio"><span>No</span></label>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <p>Special instructions</p>
+          <textarea rows="3"></textarea>
+        </div>
+        <div class="item">
+          <p>Activities: spa, golf, excursion, event ticket, shows, etc.</p>
+          <textarea rows="3"></textarea>
+        </div>
+        <div class="question">
+          <p>Include travel insurance</p>
+          <div class="question-answer">
+            <div>
+              <input type="radio" value="none" id="radio_7" name="question4"/>
+              <label for="radio_7" class="radio"><span>Yes</span></label>
+            </div>
+            <div>
+              <input type="radio" value="none" id="radio_8" name="question4"/>
+              <label for="radio_8" class="radio"><span>No</span></label>
+            </div>
+          </div>
+        </div>
+        <div class="btn-block">
+            <a href="success.png"><input type="button" value="Confirm Booking"></a>
+        </div>
+        <div class="btn-block">
+            <a href="index.html"><input type="button" value="Return home"></a>
+        </div>
+    </form>
+    </div>
+  </body>
+</html>
